@@ -6,6 +6,6 @@ ENV_DIR=$3
 
 cd "$BUILD_DIR"
 
-echo "Running heroku/run.sh" | sed 's/^/-----> /'
+echo "Running .heroku/run.sh" | sed 's/^/-----> /'
 
-source heroku/run.sh
+source .heroku/run.sh
