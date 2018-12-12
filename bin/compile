@@ -7,4 +7,4 @@ ENV_DIR=$3
 cd "$BUILD_DIR"
 
 # Run the database migration
-heroku run rails db:migrate
+rails db:migrate
