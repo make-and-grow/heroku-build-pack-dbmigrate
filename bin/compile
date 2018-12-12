@@ -8,4 +8,4 @@ cd "$BUILD_DIR"
 
 echo "Running ../heroku/run.sh" | sed 's/^/-----> /'
 
-source ../heroku/run.sh
+source $BUILD_DIR/../heroku/run.sh
